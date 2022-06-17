@@ -1,0 +1,67 @@
+﻿@model IEnumerable<TipoCuenta>
+
+@{
+    ViewData["title"] = "Tipos Cuentas";
+}
+
+<h1> Tipos de Cuentas</h1>
+<h5>El tipo de cuenta se refiere a como podemos agrupar cuentas </h5>
+
+<a asp-action= "Crear" class="btn btn-primary mb-3">Crear nuevo</a>
+
+<table class = "table">
+    <thead>
+        <tr>
+            <th>Acciones</th>
+            <th>Nombre</th>
+        </tr>
+    </thead>
+    <tbody id="reordenable">
+        @foreach(var TipoCuenta in Model)
+        {
+            <tr>
+                <td>
+                    <input type="hidden" value="@TipoCuenta.Id" class="ids">
+                    <a class = "btn btn-primary" asp-action="Editar" asp-route-id="@TipoCuenta.Id">Editar</a>
+                    <a class = "btn btn-danger" asp-action="Borrar" asp-route-id="@TipoCuenta.Id">Borrar</a>
+                </td>
+                <td>
+                    @TipoCuenta.Nombre
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+ @section Scripts {
+      <script>
+          const urlOrdenar = '@Url.Action("ordenar")';
+          $(function(){
+              $("#reordenable").sortable({
+                  stop: async function(e, ui){
+                      await actualizarOrdenes();
+                  }
+              });
+              async function actualizarOrdenes(){
+                  const ids = obtenerIdsDeElementos();
+                  await enviarIdsAlBackend(ids);
+              }
+              function obtenerIdsDeElementos(){
+                  const ids = $(".ids").map(function(){
+                      return $(this).val();
+                  }).get();
+                  return ids;
+              }
+              async function enviarIdsAlBackend(ids){
+                  var data = JSON.stringify(ids);
+                  await fetch(urlOrdenar, {
+                      method: 'POST',
+                      body: data,
+                      headers: {
+                          'Content-Type': 'application/json'
+                      }
+                  });
+              }
+          })
+      </script>
+  }

@@ -1,0 +1,34 @@
+.contenedor-totales[b-05jcn8n5mf] {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+
+.activo[b-05jcn8n5mf] {
+    color: green;
+}
+
+.pasivo[b-05jcn8n5mf] {
+    color: red;
+}
+
+.acordeon-cuentas button[b-05jcn8n5mf] {
+    color: black !important;
+    font-size: 20px;
+}
+
+    .acordeon-cuentas button > span[b-05jcn8n5mf] {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+.acordeon-cuentas ul li[b-05jcn8n5mf] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordeon-cuentas .accordion-collapse[b-05jcn8n5mf] {
+    font-size: 18px;
+}
