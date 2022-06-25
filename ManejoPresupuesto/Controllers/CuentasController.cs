@@ -120,7 +120,35 @@ namespace ManejoPresupuesto.Controllers
             return tiposCuentas.Select(x => new SelectListItem(x.Nombre,x.Id.ToString()));
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Borrar(int id)
+        {
+            var usuarioId = servicioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(id, usuarioId);
+            if(cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+            return View(cuenta);
+        }
 
+        [HttpPost]
+
+        public async Task<IActionResult> BorrarCuenta(int id)
+        {
+            var usuarioId = servicioUsuarios.ObtenerUsuarioId();
+            var cuenta = await repositorioCuentas.ObtenerPorId(id, usuarioId);
+            if (cuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+
+            await repositorioCuentas.Borrar(id);
+
+            return RedirectToAction("Index");
+        }
+
+       
 
     }
 }
