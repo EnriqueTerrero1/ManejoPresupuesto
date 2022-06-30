@@ -1,3 +1,38 @@
+/* _content/ManejoPresupuesto/Views/Cuentas/Detalle.cshtml.rz.scp.css */
+.contenedor-totales[b-qeeaap29j4] {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    text-align: center;
+}
+
+.activo[b-qeeaap29j4] {
+    color: green;
+}
+
+.pasivo[b-qeeaap29j4] {
+    color: red;
+}
+
+.acordeon-cuentas button[b-qeeaap29j4] {
+    color: black !important;
+    font-size: 20px;
+}
+
+    .acordeon-cuentas button > span[b-qeeaap29j4] {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+.acordeon-cuentas ul li[b-qeeaap29j4] {
+    display: flex;
+    justify-content: space-between;
+}
+
+.acordeon-cuentas .accordion-collapse[b-qeeaap29j4] {
+    font-size: 18px;
+}
 /* _content/ManejoPresupuesto/Views/Cuentas/Index.cshtml.rz.scp.css */
 .contenedor-totales[b-05jcn8n5mf] {
     display: flex;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VzXh5l/4OcTxyNCX3CV+zb5mW9BvxMjCb6fH3tQjKNM=",
+  "Hash": "WbxUwJFkEKG2ZlwTxFBhfR+RRXarC+wu7DAG9b3JvAM=",
   "Source": "ManejoPresupuesto",
   "BasePath": "_content/ManejoPresupuesto",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ManejoPresupuesto.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\css\\CuentaStyle.css",
+      "SourceId": "ManejoPresupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuesto",
+      "RelativePath": "css/CuentaStyle.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CuentaStyle.css"
     },
     {
       "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\css\\custom.css",
@@ -100,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\js\\FormularioTransacciones.js",
+      "SourceId": "ManejoPresupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuesto",
+      "RelativePath": "js/FormularioTransacciones.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\FormularioTransacciones.js"
     },
     {
       "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\js\\site.js",
