@@ -11,6 +11,7 @@ namespace ManejoPresupuesto.Servicios
         Task Crear(Transaccion transaccion);
         Task<IEnumerable<Transaccion>> ObtenerPorCuentaId(ObtenerTransaccionesPorCuenta modelo);
         Task<Transaccion> ObtenerPorId(int id, int usuarioId);
+        Task<IEnumerable<ResultadoObtenerPorMes>> ObtenerPorMes(int usuarioId, int año);
         Task<IEnumerable<ResultadoObtenerPorSemana>> ObtenerPorSemana(ParametroObtenerTransaccionesPorUsuario modelo);
         Task<IEnumerable<Transaccion>> ObtenerPorUsuarioId(ParametroObtenerTransaccionesPorUsuario modelo);
     }
@@ -90,7 +91,7 @@ namespace ManejoPresupuesto.Servicios
         {
             using var connection = new SqlConnection(connectionString);
 
-            return await connection.QueryAsync<Transaccion>(@"Select t.id,t.Monto,t.fechatransaccion,c.nombre as categoria, cu.nombre as cuenta,c.tipooperacionid
+            return await connection.QueryAsync<Transaccion>(@"Select t.id,t.Monto,t.fechatransaccion,c.nombre as categoria, cu.nombre as cuenta,c.tipooperacionid,Nota
                                                               from transacciones t
                                                                inner join categorias c
                                                                 on c.id = t.categoriaId
@@ -115,5 +116,20 @@ namespace ManejoPresupuesto.Servicios
                     ", modelo);
 
         }
+        public async Task<IEnumerable<ResultadoObtenerPorMes>> ObtenerPorMes(int usuarioId,
+            int año)
+        {
+            using var connection = new SqlConnection(connectionString);
+            return await connection.QueryAsync<ResultadoObtenerPorMes>(@"
+            SELECT MONTH(FechaTransaccion) as Mes,
+            SUM(Monto) as Monto, cat.TipoOperacionId
+            FROM Transacciones
+            INNER JOIN Categorias cat
+            ON cat.Id = Transacciones.CategoriaId
+            WHERE Transacciones.UsuarioId = @usuarioId AND YEAR(FechaTransaccion) = @Año
+            GROUP BY Month(FechaTransaccion), cat.TipoOperacionId", new { usuarioId, año });
+        }
+
+
     }
 }

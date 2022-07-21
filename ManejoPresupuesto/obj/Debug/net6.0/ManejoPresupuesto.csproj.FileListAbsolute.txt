@@ -61,3 +61,7 @@ C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\obj\Debug
 C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\obj\Debug\net6.0\scopedcss\Views\Cuentas\Detalle.cshtml.rz.scp.css
+C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\ClosedXML.dll
+C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\DocumentFormat.OpenXml.dll
+C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\ExcelNumberFormat.dll
+C:\Users\Enrique Terrero\Documents\ManejoPresupuesto\ManejoPresupuesto\bin\Debug\net6.0\System.IO.Packaging.dll

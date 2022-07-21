@@ -1,0 +1,37 @@
+﻿@model RegistroViewModel
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+
+@{
+    ViewData["title"] = "Registro";
+}
+
+<h1>Registrate</h1>
+
+<form asp-action="Registro">
+
+    <div asp-validation-summary="ModelOnly" class="text-danger"> </div>
+        <div class= "mb-3">
+            <label asp-for="Email" class="form-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+
+
+        </div>
+        <div class= "mb-3">
+            <label asp-for="Password" class="form-label"></label>
+            <input asp-for="Password" type="password" class="form-control" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+        </div>
+
+
+
+    
+        <button class="btn btn-primary">Registrar</button>
+        <a class="btn btn-success" asp-action="login">Login</a>
+
+</form>
+
+@section Scripts{
+
+    <partial name ="_ValidationScriptsPartial" />
+}

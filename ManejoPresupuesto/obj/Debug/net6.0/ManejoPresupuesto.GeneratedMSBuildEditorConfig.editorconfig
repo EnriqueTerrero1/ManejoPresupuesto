@@ -59,8 +59,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_LinksLogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaW5rc0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_NavegarPorMeses.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZlZ2FyUG9yTWVzZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_Paginacion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QYWdpbmFjaW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_ReporteTransaccionesDetalladas.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXBvcnRlVHJhbnNhY2Npb25lc0RldGFsbGFkYXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_ResumenMontos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXN1bWVuTW9udG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -113,6 +129,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Transacciones/_Submenu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhbnNhY2Npb25lc1xfU3VibWVudS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Usuarios/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Usuarios/Registro.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcUmVnaXN0cm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/Usuarios/_layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXN1YXJpb3NcX2xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Enrique Terrero/Documents/ManejoPresupuesto/ManejoPresupuesto/Views/_ViewImports.cshtml]

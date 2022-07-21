@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WbxUwJFkEKG2ZlwTxFBhfR+RRXarC+wu7DAG9b3JvAM=",
+  "Hash": "eR+lAKnt1goHrNVGVlcui4EBlNM06/peuL8BbWAhS4k=",
   "Source": "ManejoPresupuesto",
   "BasePath": "_content/ManejoPresupuesto",
   "Mode": "Default",
@@ -916,6 +916,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
+    },
+    {
+      "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\fullcalendar\\main.min.css",
+      "SourceId": "ManejoPresupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuesto",
+      "RelativePath": "lib/fullcalendar/main.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\fullcalendar\\main.min.js",
+      "SourceId": "ManejoPresupuesto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\",
+      "BasePath": "_content/ManejoPresupuesto",
+      "RelativePath": "lib/fullcalendar/main.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\fullcalendar\\main.min.js"
     },
     {
       "Identity": "C:\\Users\\Enrique Terrero\\Documents\\ManejoPresupuesto\\ManejoPresupuesto\\wwwroot\\lib\\jquery\\dist\\jquery.js",
